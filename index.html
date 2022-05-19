@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;900&display=swap" rel="stylesheet">
+   <title>Profile Page</title>
+</head>
+<body>
+   <div class="top-container">
+      <div class="nav-container">
+         <h1 class="logo">Profile</h1>
+         <ul class="nav">
+            <li><a href="#home" tabindex="1" class="nav-item">Home</a></li>
+            <li><a href="#profile" tabindex="1" class="nav-item">My Profile</a></li>
+            <li><a href="#connections" tabindex="1" class="nav-item">Find Connections</a></li>
+         </ul>
+      </div>
+      <button class="sign-out" tabindex="2">Sign Out</button>
+   </div>
+   <!-- CONTENT CONTAINER -->
+   <div class="content-container">
+      <div class="center-container">
+         <!-- USER CARD -->
+         <div class="user-card">
+            <div class="top-box">1
+               <img src="./images/jane-m.jpg" alt="" class="user-avatar">
+            </div>
+            <div class="user-content">
+               <h1 class="user-name">Jane Doe</h1>
+               <div class="location-container">
+                  <img src="./icons/map-marker.png" alt="Map Marker" class="location">
+                  <p class="city">Seattle</p>
+               </div>
+               <p class="user-text">Developer | Engineer | Problem Solver</p>
+               <p class="user-text">Master of shadows and the Internet!</p>
+               <div class="small-row">
+                  <img src="./icons/gear.png" alt="Gear" class="gear">
+                  <a href="#edit">edit profile</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- EDUCATION -->
+         <div class="content-box-container education-container">
+            <div class="content-box-tops">
+               <p class="content-box-title">Education</p>
+            </div>
+            <div class="content-box-border">
+               <div class="content-box-text">
+                  <p class="edu-title">Coding Dojo - Full Stack Bootcamp</p>
+                  <p class="edu-date">May 2022 - Aug 2022</p>
+                  <p class="edu-text">Triple black belt in Python, Mern and C#</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- SIDE CONTAINER -->
+      <div class="side-container">
+         <div class="side connection-request content-box-container">
+            <div class="content-box-tops">   
+               <span class="number">2</span>
+               <p class="content-box-title">Connection Requests</p>
+            </div>
+            <div class="content-box-border">
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/todd-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Todd E</p>
+                     </div>
+                     <div class="accept-decline">
+                        <img src="./icons/accept-circle.png" alt="Accept" class="acc-dec-img">
+                        <img src="./icons/close-circle.png" alt="Decline" class="acc-dec-img">
+                     </div>
+                  </div>
+               </div>
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/phil-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Phil K</p>
+                     </div>
+                     <div class="accept-decline">
+                        <img src="./icons/accept-circle.png" alt="Accept" class="acc-dec-img">
+                        <img src="./icons/close-circle.png" alt="Decline" class="acc-dec-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- YOUR CONNECTIONS -->
+         <div class="side connection-request content-box-container">
+            <div class="content-box-tops">   
+               <span class="number">500+</span>
+               <p class="content-box-title">Your Connections</p>
+            </div>
+
+            <div class="content-box-border">
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/adrien-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Adrien D</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/anne-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Anne J</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/alayne-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Alayne T</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="content-box-text">
+                  <div class="connection-card">
+                     <div class="who-connection">
+                        <img src="./images/arry-s.jpg" alt="#Todd" class="connection-avi">
+                        <p class="connection-name">Arry Y</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="view-more">
+                  <p class="connection-name"><a href="#viewMore" class="view-more-link">View More</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</body>
+</html>
+
+<!-- SOURCE for tabindex -->
+<!-- https://stackoverflow.com/questions/17479912/how-to-change-link-color-when-clicked -->
