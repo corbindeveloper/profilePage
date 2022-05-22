@@ -165,9 +165,9 @@
 
 /* CONTENT BOXES */
 /* EDUCATION */
-.content-box-container {
+/* .content-box-container {
    width: 20%;
-}
+} */
 
 .education-container {
    width: 80%;
@@ -212,7 +212,7 @@
 
 .side  {
    width: 100%;
-   margin: 4%  0;
+   margin: 0;
 }
 
 .content-box-border {
