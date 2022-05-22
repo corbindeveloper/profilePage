@@ -215,6 +215,9 @@
    margin: 0;
 }
 
+.gap {
+   margin-top: 5%;
+}
 .content-box-border {
    border: 3px solid rgb(170,170,170);
    border-top: 2px solid rgb(170,170,170);
